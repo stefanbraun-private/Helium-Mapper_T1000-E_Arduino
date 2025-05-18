@@ -2,7 +2,7 @@
 *Experimental Helium IoT coverage mapping device,
 coded in Arduino running on Seeed Studio T1000-E LoRaWAN GPS tracker.*
 
-![Seeed Studio T1000-E LoRaWAN GPS tracker](SeeedStudio_T1000-E.png)
+![Seeed Studio T1000-E LoRaWAN GPS tracker](img/SeeedStudio_T1000-E.png)
 
 ## Usage
 This software turns a T1000-E into a custom OpenSource Helium mapping device.
