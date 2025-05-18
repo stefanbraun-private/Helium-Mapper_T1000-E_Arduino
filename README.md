@@ -1,3 +1,4 @@
+
 # Helium Mapper
 *Experimental Helium IoT coverage mapping device,
 coded in Arduino running on Seeed Studio T1000-E LoRaWAN GPS tracker.*
@@ -26,4 +27,13 @@ This code is based on Seeed Studio's  [T1000-E Arduino example code](https://wik
  
  It's an experiment for proof-of-concept,
  as a starting point for other developers :-)
+
+## 
+The Arduino code shows joining LoRaWAN network with custom OTAA-keys,
+extracting GPS location from GNSS chip,
+sending payload encoded with CayenneLPP as LoRaWAN uplink,
+a blinking LED as a test for minimal user interface,
+handling of short/long/double button press on button,
+and using buzzer for playing Nokia phone ringtone and Star Wars theme...
+All these functions are executed quasi-parallel with ProtoThreads :sunglasses: 
 
