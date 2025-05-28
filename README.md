@@ -28,7 +28,7 @@ This code is based on Seeed Studio's  [T1000-E Arduino example code](https://wik
  It's an experiment for proof-of-concept,
  as a starting point for other developers :-)
 
-## 
+## Implemented Functionality
 The Arduino code shows joining LoRaWAN network with custom OTAA-keys,
 extracting GPS location from GNSS chip,
 sending payload encoded with CayenneLPP as LoRaWAN uplink,
@@ -36,4 +36,9 @@ a blinking LED as a test for minimal user interface,
 handling of short/long/double button press on button,
 and using buzzer for playing Nokia phone ringtone and Star Wars theme...
 All these functions are executed quasi-parallel with ProtoThreads :sunglasses: 
+
+## Libraries installed via Arduino IDE Library Manager
+- Protothreads by Ben Artin (v1.4.0-arduino.beta1)
+- TinyGPSPlus by Mikal Hart (v1.0.3)
+- AceButton by Brian T. Park (v1.10.1)
 
